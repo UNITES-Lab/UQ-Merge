@@ -1,0 +1,34 @@
+models:
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-okvqa
+    parameters:
+      weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-ocrvqa
+    parameters:
+      weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-gqa
+    parameters:
+      weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-vqav2
+    parameters:
+      weight: 1.0
+  # - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-textcaps
+  #   parameters:
+  #     weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-a_okvqa
+    parameters:
+      weight: 1.0
+  # - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-refcoco
+  #   parameters:
+  #     weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-llava_instruct
+    parameters:
+      weight: 1.0
+  # - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-sharegpt
+  #   parameters:
+  #     weight: 1.0
+  - model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-vg
+    parameters:
+      weight: 1.0
+merge_method: task_arithmetic
+base_model: /home/xxx/workspace/LLaVA/new_checkpoints/llava-v1.5-7b-raw
+dtype: float16
